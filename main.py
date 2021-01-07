@@ -116,7 +116,7 @@ async def on_reaction_add(reaction, user):
     for starred_msg in messages:
       if (len(starred_msg.embeds) > 0 and 
           starred_msg.embeds[0].footer.text != discord.Embed.Empty and
-          int(starred_msg.embeds[0].footer.text.split()[1])) == message.id:
+          int(starred_msg.embeds[0].footer.text.split()[1]) == message.id):
 
         num = int(starred_msg.content.split()[1].strip("*"))
         num += 1
