@@ -11,7 +11,7 @@ A simple discord bot containing various methods.
 
 ## Requirements
 
-Requires python>=3.6, discord>=1.5.0
+Requires python>=3.6, discord>=1.5.0, asyncio, pickle
 
 ## Usage
 
